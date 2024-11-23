@@ -116,7 +116,7 @@ public class Main {
     
 
     // Recherche de colis
-    int index = gestionColis.rechercherColisByNumber(colis4.getNumColis());
+    int index = gestionColis.rechercherColis(colis4.getNumColis());
     check("Recherche colis", index == 5, "Colis trouvé à l'index 5");
 
     // Vérification de l'affichage d'un colis simple
